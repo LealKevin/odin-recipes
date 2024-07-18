@@ -1,6 +1,16 @@
+.rounded{
+    border-radius: 15px;
+}
+
 body{
+    margin: 10px;
     background-color: rgb(203, 221, 223);
     text-align: center;
+}
+
+.title{
+    background-color: aliceblue;
+    padding: 30px;
 }
 
 .font{
@@ -12,4 +22,16 @@ body{
     text-align: center;
 }
 
+.custom-button{
+    background-color: aliceblue;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
 
+}
+
+.content{
+    display: inline-block;
+    margin: 10px;
+}
