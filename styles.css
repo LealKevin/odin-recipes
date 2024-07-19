@@ -1,3 +1,10 @@
+
+
+h2{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
 .rounded{
     border-radius: 15px;
 }
@@ -25,13 +32,23 @@ body{
 .custom-button{
     background-color: aliceblue;
     display: inline-block;
-    width: 200px;
-    height: 200px;
-    padding: 20px;
+    padding: 10px;
+    margin: 5px;
+}
 
+.container{
+    display: inline-block
 }
 
 .content{
-    display: inline-block;
     margin: 10px;
+    box-sizing: content-box;
+    width: 230px;
+    height: 310px;
+}
+
+.stylized-link{
+    text-decoration: none;
+    color: rgb(23, 64, 100);
+
 }
