@@ -24,10 +24,22 @@ body{
     
 }
 
+.recipe_content{
+    background-color: #EADBC8;
+    display: inline-block;
+    padding: 20px;
+
+}
+
 
 
 .centered{
     text-align: center;
+}
+
+.align_left
+{
+    text-align: left;
 }
 
 .custom-button{
