@@ -10,41 +10,44 @@ h2{
 }
 
 body{
-    margin: 10px;
-    background-color: rgb(203, 221, 223);
+   
+    background-color: #B5C18E;
     text-align: center;
 }
 
 .title{
-    background-color: aliceblue;
+    background-color: #EADBC8;
     padding: 30px;
+    box-sizing: border-box;
+    width:740px;
+    display: inline-block;
+    
 }
 
-.font{
-   color: rgb(23, 64, 100);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 
 .centered{
     text-align: center;
 }
 
 .custom-button{
-    background-color: aliceblue;
+    background-color: #EADBC8;
     display: inline-block;
     padding: 10px;
     margin: 5px;
 }
 
+.content{
+    margin: 10px;
+    box-sizing: border-box;
+    width: 230px;
+    height: 350px;
+
 .container{
     display: inline-block
 }
 
-.content{
-    margin: 10px;
-    box-sizing: content-box;
-    width: 230px;
-    height: 310px;
+
 }
 
 .stylized-link{
@@ -52,3 +55,8 @@ body{
     color: rgb(23, 64, 100);
 
 }
+
+.font{
+    color: rgb(23, 64, 100);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
