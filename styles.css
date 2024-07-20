@@ -15,6 +15,12 @@ body{
     text-align: center;
 }
 
+.white_bg{
+    background-color: aliceblue;
+    padding: 10px;
+    display: inline-block;
+}
+
 .title{
     background-color: #EADBC8;
     padding: 30px;
